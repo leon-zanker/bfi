@@ -47,14 +47,14 @@ Try the examples in the `examples` folder as well!
 ## Specifications
 
 - Supported operators:
-	- '>': move pointer location right
-	- '<': move pointer location left
-	- '+': increment cell value at pointer location
-	- '-': decrement cell value at pointer location
-	- '[': start loop
-	- ']': end loop
-	- ',': read byte from input into cell value at pointer location
-	- '.': write cell value at pointer location to output
+	- `>`: move pointer location right
+	- `<`: move pointer location left
+	- `+`: increment cell value at pointer location
+	- `-`: decrement cell value at pointer location
+	- `[`: start loop
+	- `]`: end loop
+	- `,`: read byte from input into cell value at pointer location
+	- `.`: write cell value at pointer location to output
 - Tape expands to positive infinity
 - Pointer starts at location 0
 - Negative pointer location causes a runtime error
