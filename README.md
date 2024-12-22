@@ -61,7 +61,7 @@ zig build -Doptimize=ReleaseSafe
 # Add the resulting executable zig-out/bin/bfi (or zig-out/bin/bfi.exe on Windows) to your PATH
 ```
 
-## As a library
+## As a Library
 
 The interpreter is written in pure Zig without third party dependencies and features a generic `execute()` function that lets you specify any reader with a `fn readByte(self: @This()) anyerror!u8` method and any writer with a `fn writeByte(self: @This(), byte: u8) anyerror!void` method.
 
